@@ -57,6 +57,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        timeline: {
+          bg: "hsl(var(--timeline-bg))",
+          video: "hsl(var(--track-video))",
+          audio: "hsl(var(--track-audio))",
+          text: "hsl(var(--track-text))",
+        },
+        preview: {
+          bg: "hsl(var(--preview-bg))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
